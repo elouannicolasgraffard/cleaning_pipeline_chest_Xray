@@ -1,0 +1,5 @@
+path,true_label,predicted_as,error_type
+/work/1mxray/Xray/datasets/CXR8/00009889_023.png,Frontal,Lateral,"False Positive (Predicted Lateral, Actually Frontal)"
+/work/1mxray/Xray/datasets/CXR8/00010360_004.png,Frontal,Lateral,"False Positive (Predicted Lateral, Actually Frontal)"
+/work/1mxray/Image_truncated_cleaned/work_1mxray_Xray_datasets_CXR8_00020644_000.png,Lateral,Frontal,"False Negative (Predicted Frontal, Actually Lateral)"
+/work/1mxray/Xray/datasets/CXR8/00025223_000.png,Frontal,Lateral,"False Positive (Predicted Lateral, Actually Frontal)"

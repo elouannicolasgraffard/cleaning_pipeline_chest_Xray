@@ -1,0 +1,41 @@
+/var/spool/PBS/mom_priv/jobs/25073506.aqua.SC: line 14: activate: No such file or directory
+
+PBS Job 25073506.aqua
+CPU time         : 00:35:12
+Wall time        : 00:24:54
+Mem usage        : 3674596kb
+
+--- Job Runtime Information at 2026-08-25T18:29:21.835323---
+id               : 25073506.aqua
+Job_Name         : trainkfold_lineaer
+Job_Owner        : nicolasg@gpu1n001.ib1.hpc.qut.edu.au
+resources_used   : cput=00:35:12,mem=3674596kb,walltime=00:24:54,ncpus=8,cpupercent=134,vmem=22138680kb,gpu_usage="gpu1n012(cuda.0.usagePerc=1.937%, cuda.0.memUsagePerc=1.484%)",cpus="1,2,3,4,9,10,11,12",ngpus=0
+job_state        : 5
+queue            : gpu_batch_exec
+server           : aqua
+devices          : /dev/nvidia0
+Checkpoint       : u
+Error_Path       : gpu1n001.ib1.hpc.qut.edu.au:/mnt/hpccs01/home/nicolasg/dev/Lateral/trainkfold_lineaer.e25073506
+exec_host2       : gpu1n012.ib0.hpc.qut.edu.au:15002/2*8
+exec_vnode       : (gpu1n012[0]:ncpus=8:mem=32gb:ngpus=1:nfpgas=0)
+Join_Path        : oe
+Keep_Files       : n
+mtime            : 2026-08-25T18:04:26
+Output_Path      : gpu1n001.ib1.hpc.qut.edu.au:/mnt/hpccs01/home/nicolasg/dev/Lateral/trainkfold_lineaer.o25073506
+Resource_List    : mem=32gb,walltime=00:30:00,ncpus=8,place=free
+schedselect      : 1:ncpus=8:mem=32Gb:ngpus=1:nfpgas=0:cpu_id=any:qlist=gpu_batch_exec
+stime            : 2026-08-25T18:04:26
+session_id       : 1720675
+substate         : 50
+Variable_List    : PBS_O_HOME=/home/nicolasg,PBS_O_LANG=en_US.UTF-8,PBS_O_LOGNAME=nicolasg,PBS_O_PATH=/mnt/hpccs01/home/nicolasg/.micromamba/envs/dino_env/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/home/nicolasg/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nicolasg/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/mnt/hpccs01/home/nicolasg/.vscode/cli/servers/Stable-df53daabb18cd157bdb08c7f01c34df936cf12f4/server/bin/remote-cli:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/mnt/weka/pkg/rhel94/AuthenticAMD-25/software/Miniconda3/24.9.2-0/condabin:/home/nicolasg/.local/bin:/home/nicolasg/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/c3/bin:/opt/pbs/bin:/sbin:/bin:/usr/local/bin:/opt/pbs/bin:/sbin:/bin:/opt/pbs/bin:/sbin:/bin,PBS_O_MAIL=/var/spool/mail/nicolasg,PBS_O_SHELL=/bin/bash,PBS_O_TZ=Australia/Brisbane,PBS_O_INTERACTIVE_AUTH_METHOD=resvport,PBS_O_HOST=gpu1n001.ib0.hpc.qut.edu.au,PBS_O_WORKDIR=/mnt/hpccs01/home/nicolasg/dev/Lateral,PBS_O_SYSTEM=Linux,PBS_O_QUEUE=gpu_batch
+euser            : nicolasg
+egroup           : default
+hashname         : 25073506.aqua
+run_count        : 1
+job_kill_delay   : 10
+Exit_status      : 0
+project          : _pbs_project_default
+run_version      : 1
+Submit_Host      : gpu1n001.ib1.hpc.qut.edu.au
+Submit_arguments : ../dinov2/batch.sh 
+ctime            : 2026-08-25T18:03:56

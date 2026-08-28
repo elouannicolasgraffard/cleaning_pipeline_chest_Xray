@@ -1,0 +1,6 @@
+scored_metadata_full.csv
+collimation.png
+bad_imgages.png
+*.pkl
+*.log
+dinov2/xray_dino_vit16.pth

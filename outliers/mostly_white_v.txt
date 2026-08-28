@@ -1,0 +1,1 @@
+/work/1mxray/Xray/datasets/MIMIC/physionet.org/files/mimic-cxr-jpg/2.1.0/files/p13/p13140362/s51769049/52b0f72e-c238182d-9eed064f-4eac813b-c02b0233.jpg
